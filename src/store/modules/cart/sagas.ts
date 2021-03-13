@@ -1,5 +1,5 @@
 import { AxiosResponse } from 'axios';
-import { all, takeLatest, select, call, put } from 'redux-saga/effects';
+import { all, call, put, select, takeLatest } from 'redux-saga/effects';
 import { IState } from '../..';
 import api from '../../../services/api';
 import { addProductToCartFailure, addProductToCartRequest, addProductToCartSuccess } from './actions';
